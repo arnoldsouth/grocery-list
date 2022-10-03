@@ -19,7 +19,7 @@ const GroceryForm = React.memo((props) => {
       <Card>
         <form onSubmit={submitHandler}>
           <div className="form-control">
-            <label htmlFor="title">Grocery Item</label>
+            <label htmlFor="title">Item</label>
             <input
               type="text"
               id="title"
@@ -41,7 +41,7 @@ const GroceryForm = React.memo((props) => {
             />
           </div>
           <div className="grocery-form__actions">
-            <button type="submit">Add Item</button>
+            <button type="submit">Add</button>
             {props.loading && <LoadingIndicator />}
           </div>
         </form>

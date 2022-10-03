@@ -84,7 +84,7 @@ const Groceries = () => {
       />
 
       <section>
-        <Search onLoadGroceries={filteredGroceriesHandler} />
+        {/* <Search onLoadGroceries={filteredGroceriesHandler} /> */}
         {groceryList}
       </section>
     </div>
